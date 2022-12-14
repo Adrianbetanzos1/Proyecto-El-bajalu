@@ -1,0 +1,428 @@
+    body{        
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    
+    nav{
+        padding: 10px 0px 0px 20px;
+    }
+    #content-items{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+
+    /* Imagenes con slider */
+
+    
+    .slide{
+        display: none;
+      }
+
+    .slider-images{
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .prev, .cont{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .cont {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover, .cont:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .text {
+        color:  #ffffff;
+        font-size: 20px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+
+    
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+    
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.terminos-condiciones{
+    color: rgb(0, 64, 240);
+}
+
+header{
+    font-size: 20px;
+    display: flex;
+    min-height: 65;
+    background-color: rgba(17,182,196,255);
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10PX;  
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 70;        
+    margin-right: 30px;    
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.logo h2{        
+    color: rgb(255,255,255);
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+nav a:hover{
+    color: rgb(141, 141, 141);
+}
+
+#content-items{
+    height: 350;
+    width: 900;
+    overflow: hidden;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;    
+}
+
+
+#footer {
+    margin-top: 30px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:40px;
+    color: #fff;
+    background-color: rgba(17,182,196,255);
+} 
+
+#footer h4{
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 15px;    
+}
+
+
+.btn-whats{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;        
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 500px;
+}
+
+.btn-facebook{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;        
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 400px;
+}
+
+.btn-instagram{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;        
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 300px;
+}
+
+img.redimension{
+    max-width: 100%;
+    max-height: auto;    
+    filter: brightness(50%);
+}
+
+
+.anuncio{
+    position: relative;
+    display: inline-block;
+    text-align: center;    
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;    
+    top: 50%;
+    left: 50%;    
+    color: #fff;        
+}
+.texto-primario{    
+    transform: translate(-50%, -170%);    
+    font-size: 35px;    
+}    
+.texto-secundario{
+    transform: translate(-50%, -200%);
+    font-size: 18px;    
+}   
+
+img.oferta{
+    display: flex;    
+    max-width: 700px;
+    margin-top: 100px;      
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.imagenes-oferta h2{
+    text-align: center;
+    color:rgb(0, 110, 255);
+    font-size: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.imagenes-oferta h3{
+    text-align: center;
+    color:rgb(70, 70, 70);
+    font-size: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 50px;    
+}
+
+
+.filtro{
+    display: none;
+}
+.filtro2{
+    display: none;
+}
+.filtro3{
+    display: none;
+}
+.filtro4{
+    display: none;
+}
+
+.boton-search{    
+    display: flex;
+    align-items: center;    
+}
+
+.boton-search input{    
+    height: 50px;
+    margin-left:35%;  
+    margin-right: 30%;   
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 50px;     
+    border-radius: 40px;     
+}
+
+.boton-search ::placeholder{
+    color:rgb(0, 0, 0)    
+}
+
+img.redimension2{
+    max-width: 100%;     
+    filter: brightness(50%);
+}
+
+.anuncio2{
+    position: relative;
+    display: inline-block;
+    text-align: center;    
+}
+
+.texto-encima2{
+    position: absolute;
+    top: 10px;
+    left: 10px;    
+    top: 50%;
+    left: 50%;    
+    color: #fff;        
+}
+
+.texto-primario2{    
+    transform: translate(-50%, -120%);    
+    font-size: 30px;    
+}    
+.texto-secundario2{
+    transform: translate(-50%, -300%);
+    font-size: 18px;    
+} 
+
+.buscar-sucursal{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(0, 110, 255);
+}
+
+.boton-search2{    
+    display: flex;
+    align-items: center; 
+    margin-top: 100px;   
+}
+
+.boton-search2 input{    
+    height: 50px;
+    margin-left:35%;  
+    margin-right: 30%;   
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 50px;     
+    border-radius: 40px;     
+}
+
+.boton-search2 ::placeholder{
+    color:rgb(0, 0, 0)    
+}
+
+#tabla-sucursales{
+    margin-bottom: 100px;
+    text-align: center;   
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    vertical-align: middle;
+    border: 1px solid #000;
+    border-spacing: 0;      
+}
+
+#tabla-sucursales th{
+    height: 50px;
+    border: 1px solid #000;      
+    width: 600px;   
+}
+
+#tabla-sucursales td{
+    height: 50px;
+    border: 1px solid #000;
+    width: auto;
+}
+
+.redimension3{    
+    height: 100%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.texto-promociones{
+    color:rgb(0, 110, 255);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px; 
+}
+
+.envios{
+    margin-top: 50px;
+    display: inline-flex;
+    min-height: 65;    
+    justify-content: space-between;
+    align-items: center;  
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.descargar-app{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.descargar-app h1{
+    color:rgb(0, 110, 255);
+    font-style: bold;
+    text-align: center;     
+}
+
+.descargar-app button{
+    width: 400px;
+    height: 100px;
+    background-color:rgb(0, 110, 255);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 100px;    
+    border-color:rgb(0, 110, 255) ;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descargar-app button:hover{
+    background-color:rgb(0, 68, 255);
+}
+
+
+.btn-ios{    
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
