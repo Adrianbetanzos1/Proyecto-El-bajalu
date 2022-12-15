@@ -1,58 +1,35 @@
-    body{        
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+   body{        
     font-size: 30px;
     font-family: sans-serif;
     margin: 0px;
     box-sizing: border-box;
+    background-image: url("../images/barbacoa.png");
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
     }
     
     nav{
         padding: 10px 0px 0px 20px;
     }
-    #content-items{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-    }
+  
 
 
     /* Imagenes con slider */
 
-    
-    .slide{
-        display: none;
-      }
-
-    .slider-images{
-        max-width: 1000px;
-        position: relative;
-        margin: auto;
-        margin-top: 40px;
-    }
-
-    .prev, .cont{
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
+    .cocina-tropical{
         color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
+        background-color: #000;
+        width: 375px;
+        height: 75px;
+        position: fixed;
+        top: 450px;
+        right: 100px;
     }
-    
-    .cont {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-    
-    .prev:hover, .cont:hover {
-        background-color: rgba(0,0,0,0.8);
-    }
-
+   
     .text {
         color:  #ffffff;
         font-size: 20px;
@@ -76,7 +53,7 @@
       }
       
       .active, .dot:hover {
-        background-color: #717171;
+        background-color: #11B6C4;
       }
 
       .fade {
@@ -101,10 +78,10 @@ a{
 }
 
 header{
-    font-size: 20px;
+    font-size: .9em;
     display: flex;
     min-height: 65;
-    background-color: rgba(17,182,196,255);
+    background-color: rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     align-items: center;  
     padding: 10PX;  
@@ -118,7 +95,7 @@ header{
     height: 70;        
     margin-right: 30px;    
     margin-left: 30px;
-    margin-top: 5px;
+    margin-top: 32px;
 }
 
 .logo h2{        
@@ -131,7 +108,7 @@ nav a{
 }
 
 nav a:hover{
-    color: rgb(141, 141, 141);
+    color: #E2DE1B;
 }
 
 #content-items{
@@ -143,55 +120,16 @@ nav a:hover{
     margin-top: 50px;    
 }
 
-
-#footer {
-    margin-top: 30px;
+.redes{
     position: fixed;
-    bottom:0;
-    width:100%;
-    height:40px;
-    color: #fff;
-    background-color: rgba(17,182,196,255);
-} 
+    bottom: 5px;
+    right: 50px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
 
-#footer h4{
-    text-align: center;
-    margin-top: 10px; 
-    font-size: 15px;    
 }
 
-
-.btn-whats{
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;        
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 500px;
-}
-
-.btn-facebook{
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;        
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 400px;
-}
-
-.btn-instagram{
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;        
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 300px;
+.redes a{
+    margin-left: .5em;
 }
 
 img.redimension{
