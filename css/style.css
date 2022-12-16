@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-   body{        
+   .inicio{        
     font-size: 30px;
     font-family: sans-serif;
     margin: 0px;
@@ -11,14 +11,86 @@
 
 
     }
-    
+
+    .evento2{        
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+   
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+    }
+
+    .eventotitle{        
+        font-size: 40px;
+        font-family: sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        }
+
+    .nosotrosti{        
+        font-size: 40px;
+        font-family: sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+         }
+
+    .nosotros{
+               
+        font-size: 30px;
+        font-family: sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        display: flex;
+        justify-content: center; 
+        text-align: justify;
+        margin-right: 40px;
+        margin-left: 400px;
+        
+    }
+
+    .video_nosotros{
+        margin-left: 50px;
+        margin-right: 100px;
+        box-shadow: 3px 4px 5px #999;
+
+    }
     nav{
         padding: 10px 0px 0px 20px;
     }
   
 
+.desayuno{        
+    font-size: 30px;
+    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 
-    /* Imagenes con slider */
+    }
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: white;
+}
+
+
+h3{
+    color: white;
+}
+
 
     .cocina-tropical{
         color: white;
@@ -73,10 +145,6 @@ a{
     color: white;
 }
 
-.terminos-condiciones{
-    color: rgb(0, 64, 240);
-}
-
 header{
     font-size: .9em;
     display: flex;
@@ -86,6 +154,17 @@ header{
     align-items: center;  
     padding: 10PX;  
 }
+
+.evento {
+    font-size: .9em;
+    display: flex;
+    min-height: 65;
+    background-color: rgb(17, 181, 196);
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10PX;  
+}
+
 
 .logo{
     display: flex;
@@ -98,9 +177,6 @@ header{
     margin-top: 32px;
 }
 
-.logo h2{        
-    color: rgb(255,255,255);
-}
 
 nav a{
     font-weight: 600;
@@ -109,15 +185,6 @@ nav a{
 
 nav a:hover{
     color: #E2DE1B;
-}
-
-#content-items{
-    height: 350;
-    width: 900;
-    overflow: hidden;    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;    
 }
 
 .redes{
@@ -132,235 +199,43 @@ nav a:hover{
     margin-left: .5em;
 }
 
-img.redimension{
-    max-width: 100%;
-    max-height: auto;    
-    filter: brightness(50%);
-}
-
-
-.anuncio{
-    position: relative;
-    display: inline-block;
-    text-align: center;    
-}
-
-.texto-encima{
-    position: absolute;
-    top: 10px;
-    left: 10px;    
-    top: 50%;
-    left: 50%;    
-    color: #fff;        
-}
-.texto-primario{    
-    transform: translate(-50%, -170%);    
-    font-size: 35px;    
-}    
-.texto-secundario{
-    transform: translate(-50%, -200%);
-    font-size: 18px;    
-}   
-
-img.oferta{
-    display: flex;    
-    max-width: 700px;
-    margin-top: 100px;      
-    max-height: auto;
-    margin-left: auto;
-    margin-right: auto;    
-}
-
-.imagenes-oferta h2{
-    text-align: center;
-    color:rgb(0, 110, 255);
-    font-size: 50px;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-top: 100px;
-}
-
-.imagenes-oferta h3{
-    text-align: center;
-    color:rgb(70, 70, 70);
-    font-size: 20px;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 50px;    
-}
-
-
-.filtro{
-    display: none;
-}
-.filtro2{
-    display: none;
-}
-.filtro3{
-    display: none;
-}
-.filtro4{
-    display: none;
-}
-
-.boton-search{    
-    display: flex;
-    align-items: center;    
-}
-
-.boton-search input{    
-    height: 50px;
-    margin-left:35%;  
-    margin-right: 30%;   
-    width: 30%;
-    background-color: #fff;
-    margin-bottom: 50px;     
-    border-radius: 40px;     
-}
-
-.boton-search ::placeholder{
-    color:rgb(0, 0, 0)    
-}
-
-img.redimension2{
-    max-width: 100%;     
-    filter: brightness(50%);
-}
-
-.anuncio2{
-    position: relative;
-    display: inline-block;
-    text-align: center;    
-}
-
-.texto-encima2{
-    position: absolute;
-    top: 10px;
-    left: 10px;    
-    top: 50%;
-    left: 50%;    
-    color: #fff;        
-}
-
-.texto-primario2{    
-    transform: translate(-50%, -120%);    
-    font-size: 30px;    
-}    
-.texto-secundario2{
-    transform: translate(-50%, -300%);
-    font-size: 18px;    
-} 
-
-.buscar-sucursal{
-    font-size: 50px;
-    text-align: center;
-    color:rgb(0, 110, 255);
-}
-
-.boton-search2{    
-    display: flex;
-    align-items: center; 
-    margin-top: 100px;   
-}
-
-.boton-search2 input{    
-    height: 50px;
-    margin-left:35%;  
-    margin-right: 30%;   
-    width: 30%;
-    background-color: #fff;
-    margin-bottom: 50px;     
-    border-radius: 40px;     
-}
-
-.boton-search2 ::placeholder{
-    color:rgb(0, 0, 0)    
-}
-
-#tabla-sucursales{
-    margin-bottom: 100px;
-    text-align: center;   
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    vertical-align: middle;
-    border: 1px solid #000;
-    border-spacing: 0;      
-}
-
-#tabla-sucursales th{
-    height: 50px;
-    border: 1px solid #000;      
-    width: 600px;   
-}
-
-#tabla-sucursales td{
-    height: 50px;
-    border: 1px solid #000;
-    width: auto;
-}
-
-.redimension3{    
-    height: 100%;
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-.texto-promociones{
-    color:rgb(0, 110, 255);
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 50px; 
-}
-
-.envios{
-    margin-top: 50px;
-    display: inline-flex;
-    min-height: 65;    
-    justify-content: space-between;
-    align-items: center;  
-    text-align: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-
-.descargar-app{
-    margin-top: 150px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-.descargar-app h1{
-    color:rgb(0, 110, 255);
-    font-style: bold;
-    text-align: center;     
-}
-
-.descargar-app button{
+.eventoimg{
     width: 400px;
-    height: 100px;
-    background-color:rgb(0, 110, 255);
-    color: #fff;
-    font-size: 20px;
-    border-radius: 100px;    
-    border-color:rgb(0, 110, 255) ;
-    transition: all 0.3s ease-in-out;
-    letter-spacing: 1px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    height: 600px;
+    margin-left: 9%;
 }
 
-.descargar-app button:hover{
-    background-color:rgb(0, 68, 255);
+.eventoimg2{
+    width: 400px;
+    height: 600px;
+    margin-left: 8%;
+}
+
+.eventoimg3{
+    width: 400px;
+    height: 600px;
+    margin-left: 9%;
+}
+
+/*Formulario Contacto*/
+
+.imagen-camarones{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.imagen-camarones img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
-.btn-ios{    
-    margin-top: 60px;
-    margin-bottom: 60px;
+.formulario{
+    width: 50%;
+    height: 100%;
 }
 
+.formulario h3{
+    color:black
+}
